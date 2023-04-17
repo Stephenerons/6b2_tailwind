@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        
+      table {
+        border: 1em #c4dcf3;
+        border-collapse: collapse;
+        letter-spacing: 3px;
+      }
+
+      thead {
+        background-color: #427fef;
+      }
+
+      .odd {
+        background-color: #eef7ff;
+      }
+
+      tfoot {
+        background-color: #427fef;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td>Country</td>
+          <td>OrderID</td>
+          <td>Order Amount</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="odd">
+          <th>USA</th>
+          <td>1000</td>
+          <td>$1,300</td>
+        </tr>
+        <tr>
+          <th>USA</th>
+          <td>1001</td>
+          <td>$700</td>
+        </tr>
+        <tr class="odd">
+          <th>CA</th>
+          <td>1002</td>
+          <td>$2000</td>
+        </tr>
+
+        <tr>
+          <th>CA</th>
+          <td>1003</td>
+          <td>$1000</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <td></td>
+          <td>$5000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
